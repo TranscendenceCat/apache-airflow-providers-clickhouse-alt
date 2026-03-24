@@ -40,12 +40,12 @@ def get_provider_info():
                 "python-modules": ["airflow.providers.clickhouse.sensors.clickhouse"],
             },
         ],
-        "connection-types": [
-            {
-                "hook-class-name": "airflow.providers.clickhouse.hooks.clickhouse.ClickHouseHook",
-                "connection-type": "clickhouse",
-            }
-        ],
+        # "connection-types": [
+        #     {
+        #         "hook-class-name": "airflow.providers.clickhouse.hooks.clickhouse.ClickHouseHook",
+        #         "connection-type": "clickhouse",
+        #     }
+        # ],
         # "asset-uris": [
         #     {
         #         "schemes": ["postgres", "postgresql"],
